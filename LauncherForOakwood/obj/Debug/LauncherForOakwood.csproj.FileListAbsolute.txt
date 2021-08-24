@@ -1,0 +1,13 @@
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.exe.config
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.exe
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.pdb
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.AssemblyReference.cache
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.MainForm.resources
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.Properties.Resources.resources
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.GenerateResource.cache
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.CopyComplete
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.exe
+C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.pdb
