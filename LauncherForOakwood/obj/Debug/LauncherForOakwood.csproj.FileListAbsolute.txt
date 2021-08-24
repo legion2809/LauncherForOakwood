@@ -11,3 +11,16 @@ C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\Lau
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.CopyComplete
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.exe
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.pdb
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.exe.config
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.exe
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Debug\LauncherForOakwood.pdb
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Debug\Newtonsoft.Json.dll
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Debug\Newtonsoft.Json.xml
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.AssemblyReference.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.MainForm.resources
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.Properties.Resources.resources
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.GenerateResource.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.CoreCompileInputs.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.csproj.CopyComplete
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.exe
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Debug\LauncherForOakwood.pdb

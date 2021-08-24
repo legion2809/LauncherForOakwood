@@ -11,3 +11,16 @@ C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Release\L
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.csproj.CopyComplete
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.exe
 C:\Users\LEGION\source\repos\LauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.pdb
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Release\LauncherForOakwood.exe.config
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Release\LauncherForOakwood.exe
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Release\LauncherForOakwood.pdb
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Release\Newtonsoft.Json.dll
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\bin\Release\Newtonsoft.Json.xml
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.csproj.AssemblyReference.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.MainForm.resources
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.Properties.Resources.resources
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.csproj.GenerateResource.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.csproj.CoreCompileInputs.cache
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.csproj.CopyComplete
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.exe
+E:\Downloads\Documents\Git-projects\ShittyKindOfLauncherForOakwood\LauncherForOakwood\obj\Release\LauncherForOakwood.pdb
