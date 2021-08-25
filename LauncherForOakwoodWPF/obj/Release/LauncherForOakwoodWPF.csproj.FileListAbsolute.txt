@@ -1,0 +1,17 @@
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.exe.config
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.exe
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.pdb
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.dll
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.xml
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\MainWindow.g.cs
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\App.g.cs
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF_MarkupCompile.cache
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF_MarkupCompile.lref
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\MainWindow.baml
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.g.resources
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.Properties.Resources.resources
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.GenerateResource.cache
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CopyComplete
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.exe
+C:\Users\LEGION\source\repos\LauncherForOakwoodWPF\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.pdb
