@@ -14,5 +14,6 @@ Special thanks to:
 Smelson (Vanya Shatilov) - for providing an idea to create this thing and helping me.
 AsaSK - for background image to the program :)
 Mafia Bar - for improving some minor stuff in code.
+And, finally, MafiaHub dev team - for the multiplayer.
 
 If you found any bugs, don't be hesitate to tell about this. ;)
