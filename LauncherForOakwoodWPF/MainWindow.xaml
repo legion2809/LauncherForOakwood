@@ -10,31 +10,34 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="70*"/>
             <ColumnDefinition Width="243*"/>
-            <ColumnDefinition Width="437*"/>
-            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="438*"/>
+            <ColumnDefinition Width="143*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="ConfirmButton" Content="Confirm settings and launch the game" HorizontalAlignment="Left" Margin="40,310,0,0" VerticalAlignment="Top" Width="288" Height="40" FontSize="16" Opacity="0.65" BorderThickness="1" Grid.ColumnSpan="2" Click="ConfirmButton_Click" Grid.Column="1" />
-        <Button x:Name="ReadJaSONButton" Content="Tap here if you want to read JaSON-files" Grid.Column="2" HorizontalAlignment="Left" Margin="110,310,0,0" VerticalAlignment="Top" Width="303" Height="40" FontSize="16" Opacity="0.65" Click="ReadJaSONButton_Click"/>
-        <Label Content="Resolution settings:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="215" FontSize="22" FontWeight="Bold" FontFamily="Lato" Grid.Column="2" Height="36"/>
-        <Label Content="Width:" HorizontalAlignment="Left" Margin="125,62,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31" Width="56"/>
-        <TextBox x:Name="WidthBox" HorizontalAlignment="Left" Height="29" Margin="186,64,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="113" FontSize="16" Grid.ColumnSpan="2" Grid.Column="1"/>
-        <Label Content="Height:" HorizontalAlignment="Left" Margin="90,62,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="2" Height="31" Width="61"/>
-        <TextBox x:Name="HeightBox" HorizontalAlignment="Left" Height="29" Margin="156,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" FontSize="16" Grid.Column="2"/>
-        <Label Content="Other settings:" HorizontalAlignment="Left" Margin="41,120,0,0" VerticalAlignment="Top" Width="161" FontSize="22" FontWeight="Bold" Height="35" FontFamily="Lato" Grid.Column="2"/>
-        <Label Content="Mafia directory:" HorizontalAlignment="Left" Margin="51,158,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31" Width="120"/>
-        <TextBox x:Name="MafiaPathBox" HorizontalAlignment="Left" Height="29" Margin="176,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" FontSize="16" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="background.png"/>
+        </Grid.Background>
+        <Button x:Name="ConfirmButton" Content="Confirm settings and launch the game" HorizontalAlignment="Left" Margin="40,310,0,0" VerticalAlignment="Top" Width="288" Height="40" FontSize="20" Opacity="0.65" BorderThickness="1" Grid.ColumnSpan="2" Click="ConfirmButton_Click" Grid.Column="1" FontFamily="Aurora BdCn BT" />
+        <Button x:Name="ReadJaSONButton" Content="Tap here if you want to read JaSON-files" Grid.Column="2" HorizontalAlignment="Left" Margin="110,310,0,0" VerticalAlignment="Top" Width="318" Height="40" FontSize="20" Opacity="0.65" Click="ReadJaSONButton_Click" FontFamily="Aurora BdCn BT"/>
+        <Label Content="Resolution settings:" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="269" FontSize="36" FontWeight="Bold" FontFamily="Aurora BdCn BT" Grid.Column="2" Height="57" Foreground="#FFECD9D9"/>
+        <Label Content="Width:" HorizontalAlignment="Left" Margin="125,62,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" Height="31" Width="56" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <TextBox x:Name="WidthBox" HorizontalAlignment="Left" Height="29" Margin="186,64,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="113" FontSize="22" Grid.ColumnSpan="2" Grid.Column="1" Opacity="0.65" FontFamily="Aurora BdCn BT"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Margin="90,62,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="2" Height="31" Width="61" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <TextBox x:Name="HeightBox" HorizontalAlignment="Right" Height="29" Margin="0,64,169,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" FontSize="22" Grid.Column="2" Opacity="0.65" FontFamily="Aurora BdCn BT"/>
+        <Label Content="Other settings:" HorizontalAlignment="Left" Margin="41,109,0,0" VerticalAlignment="Top" Width="215" FontSize="36" FontWeight="Bold" Height="46" FontFamily="Aurora BdCn BT" Grid.Column="2" Foreground="#FFECD9D9"/>
+        <Label Content="Mafia directory:" HorizontalAlignment="Left" Margin="40,158,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" Height="31" Width="131" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <TextBox x:Name="MafiaPathBox" HorizontalAlignment="Left" Height="29" Margin="176,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" FontSize="22" Grid.ColumnSpan="2" Grid.Column="1" Opacity="0.65" FontFamily="Aurora BdCn BT"/>
         <Button x:Name="ChooseMafiaPath" Content="Choose Mafia dir." Grid.Column="2" HorizontalAlignment="Left" Margin="279,161,0,0" VerticalAlignment="Top" Width="152" FontSize="14" Height="28" Click="ChooseMafiaPath_Click" Opacity="0.65"/>
-        <Label Content="Oakwood directory:" HorizontalAlignment="Left" Margin="23,204,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31" Width="148"/>
-        <TextBox x:Name="OakPathBox" HorizontalAlignment="Left" Height="29" Margin="176,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" FontSize="16" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Oakwood directory:" HorizontalAlignment="Left" Margin="20,202,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" Height="31" Width="161" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <TextBox x:Name="OakPathBox" HorizontalAlignment="Left" Height="29" Margin="176,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" FontSize="22" Grid.ColumnSpan="2" Grid.Column="1" Opacity="0.65" FontFamily="Aurora BdCn BT"/>
         <Button x:Name="ChooseOakPath" Content="Choose Oakwood dir." Grid.Column="2" HorizontalAlignment="Left" Margin="279,204,0,0" VerticalAlignment="Top" Width="152" FontSize="14" Height="31" Click="ChooseOakPath_Click" Opacity="0.65"/>
-        <TextBox x:Name="NickNameBox" HorizontalAlignment="Left" Height="29" Margin="129,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontSize="16" Grid.ColumnSpan="2" RenderTransformOrigin="0.488,1.061" Grid.Column="1"/>
-        <Label Content="Nickname:" HorizontalAlignment="Left" Margin="40,249,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31" Width="84"/>
-        <Label Content="Anti-aliasing:" HorizontalAlignment="Left" Margin="74,249,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="2" RenderTransformOrigin="0.505,0.71" Height="31" Width="102"/>
-        <ComboBox x:Name="AntiAliasingBox" Grid.Column="2" HorizontalAlignment="Left" Margin="181,251,0,0" VerticalAlignment="Top" Width="156" Height="29" FontSize="16">
+        <TextBox x:Name="NickNameBox" HorizontalAlignment="Left" Height="29" Margin="129,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontSize="22" Grid.ColumnSpan="2" RenderTransformOrigin="0.488,1.061" Grid.Column="1" Opacity="0.65" FontFamily="Aurora BdCn BT"/>
+        <Label Content="Nickname:" HorizontalAlignment="Left" Margin="40,249,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" Height="31" Width="84" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <Label Content="Anti-aliasing:" HorizontalAlignment="Left" Margin="74,249,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="2" RenderTransformOrigin="0.505,0.71" Height="31" Width="118" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
+        <ComboBox x:Name="AntiAliasingBox" Grid.Column="2" HorizontalAlignment="Left" Margin="192,251,0,0" VerticalAlignment="Top" Width="156" Height="29" FontSize="22" Opacity="0.65" FontFamily="Aurora BdCn BT">
             <ComboBoxItem Content="0"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="4"/>
         </ComboBox>
-        <CheckBox x:Name="IsFullScreenCheck" Content="Fullscreen Mode" Grid.Column="2" HorizontalAlignment="Left" Margin="295,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.357,-0.223" FontSize="16" Height="20" Width="136"/>
+        <CheckBox x:Name="IsFullScreenCheck" Content="Fullscreen Mode" Grid.Column="2" HorizontalAlignment="Left" Margin="295,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.357,-0.223" FontSize="20" Height="20" Width="142" Foreground="#FFECD9D9" FontFamily="Aurora BdCn BT"/>
     </Grid>
 </Window>
