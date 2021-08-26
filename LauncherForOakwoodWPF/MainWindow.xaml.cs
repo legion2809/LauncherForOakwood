@@ -77,12 +77,6 @@ namespace LauncherForOakwoodWPF
                     writer.Write(nickname);
                 }
 
-                if (OakPathBox.Text.Length == 0)
-                {
-                    MessageBox.Show("Path to Oakwood not specified!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    throw new Exception();
-                }
-
                 Process.Start(OakPathBox.Text + "\\Oakwood.exe");
                 Application.Current.Shutdown();
             }
