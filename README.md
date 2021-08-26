@@ -1,5 +1,5 @@
-# ShittyKindOfLauncherForOakwood
-Some kind of launcher (shitty launcher, btw) for Oakwood (Mafia: TCOLH multi-player modification)
+# LauncherForOakwood
+Some kind of launcher for Oakwood (Mafia: TCOLH multi-player modification)
 
 That program is some kind of launcher for Oakwood ver. RC2 (Mafia: TCOLH multi-player modification)
 
