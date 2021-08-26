@@ -27,7 +27,8 @@ namespace LauncherForOakwoodWPF
 
                 MafiaPathBox.Text = mafia_path;
                 OakPathBox.Text = oak_path;
-            } catch
+            }
+            catch
             {
                 MessageBox.Show("Couldn't read recent saved Oakwood directory!\nMaybe, files doesn't exist.",
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -97,27 +98,25 @@ namespace LauncherForOakwoodWPF
         {
             try
             {
-                var dialog = new System.Windows.Forms.OpenFileDialog();
-                System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+                string client_path = OakPathBox.Text + "\\config\\client.json";
+                string launcher_path = OakPathBox.Text + "\\config\\launcher.json";
 
-                dynamic filename = JsonConvert.DeserializeObject(File.ReadAllText(dialog.FileName));
+                dynamic client = JsonConvert.DeserializeObject(File.ReadAllText(client_path));
+                dynamic launcher = JsonConvert.DeserializeObject(File.ReadAllText(launcher_path));
 
-                if (dialog.FileName.Contains("launcher.json"))
-                {
-                    MafiaPathBox.Text = filename["gamepath"];
-                    WidthBox.Text = filename["width"];
-                    HeightBox.Text = filename["height"];
-                    IsFullScreenCheck.IsChecked = filename["fullscreen"] == true ? true : false;
-                    AntiAliasingBox.Text = filename["antialiasing"];
-                }
-                else if (dialog.FileName.Contains("client.json"))
-                {
-                    NickNameBox.Text = filename["temp_nickname"];
-                }
+                // launcher.json settings
+                MafiaPathBox.Text = launcher["gamepath"];
+                WidthBox.Text = launcher["width"];
+                HeightBox.Text = launcher["height"];
+                IsFullScreenCheck.IsChecked = launcher["fullscreen"] == true ? true : false;
+                AntiAliasingBox.Text = launcher["antialiasing"];
+
+                // client.json settings
+                NickNameBox.Text = client["temp_nickname"];
             }
             catch
             {
-                MessageBox.Show(new Exception().Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Couldn't read files!\nMaybe, the field with Oakwood directory is empty.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         #endregion
@@ -144,7 +143,7 @@ namespace LauncherForOakwoodWPF
             {
                 OakPathBox.Text = dialog.SelectedPath;
                 File.WriteAllText(Directory.GetCurrentDirectory() + "\\OakPath.txt", OakPathBox.Text);
-            }  
+            }
         }
         #endregion
     }
