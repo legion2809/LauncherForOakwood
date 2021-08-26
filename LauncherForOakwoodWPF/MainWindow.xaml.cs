@@ -30,7 +30,7 @@ namespace LauncherForOakwoodWPF
             }
             catch
             {
-                MessageBox.Show("Couldn't read recent saved Oakwood directory!\nMaybe, files doesn't exist.",
+                MessageBox.Show("Couldn't read recent saved Mafia/Oakwood directory!\nMaybe, files doesn't exist.",
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
@@ -77,6 +77,9 @@ namespace LauncherForOakwoodWPF
                 {
                     writer.Write(nickname);
                 }
+
+                File.WriteAllText(Directory.GetCurrentDirectory() + "\\MafiaPath.txt", MafiaPathBox.Text);
+                File.WriteAllText(Directory.GetCurrentDirectory() + "\\OakPath.txt", OakPathBox.Text);
 
                 Process.Start(OakPathBox.Text + "\\Oakwood.exe");
                 Application.Current.Shutdown();
@@ -130,7 +133,6 @@ namespace LauncherForOakwoodWPF
             if (result == System.Windows.Forms.DialogResult.OK)
             {
                 MafiaPathBox.Text = dialog.SelectedPath;
-                File.WriteAllText(Directory.GetCurrentDirectory() + "\\MafiaPath.txt", MafiaPathBox.Text);
             }
         }
 
@@ -142,7 +144,6 @@ namespace LauncherForOakwoodWPF
             if (result == System.Windows.Forms.DialogResult.OK)
             {
                 OakPathBox.Text = dialog.SelectedPath;
-                File.WriteAllText(Directory.GetCurrentDirectory() + "\\OakPath.txt", OakPathBox.Text);
             }
         }
         #endregion
