@@ -129,7 +129,7 @@ namespace LauncherForOakwoodWPF
             }
             catch
             {
-                MessageBox.Show("Couldn't read files!\nMaybe, the field with Oakwood directory is empty.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Couldn't read files!\nMaybe, the field with Oakwood directory is empty or 'config' folder doesn't exist.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         #endregion
