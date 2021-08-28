@@ -42,7 +42,7 @@ namespace LauncherForOakwoodWPF
             try
             {
                 // Writing launcher.json
-                string path = OakPathBox.Text + "\\config\\launcher.json";
+                string path = OakPathBox.Text + "\\config";
                 LauncherJSON launcher = new LauncherJSON()
                 {
                     gamepath = MafiaPathBox.Text,
@@ -60,20 +60,30 @@ namespace LauncherForOakwoodWPF
                 }
 
                 var launcher_settings = JsonConvert.SerializeObject(launcher, Formatting.Indented);
-                using (var writer = new StreamWriter(path))
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                using (var writer = new StreamWriter(File.Create(path + "\\launcher.json")))
                 {
                     writer.Write(launcher_settings);
                 }
 
                 // Writing client.json
-                string client_path = OakPathBox.Text + "\\config\\client.json";
+                string client_path = OakPathBox.Text + "\\config";
                 ClientJSON client = new ClientJSON()
                 {
                     temp_nickname = NickNameBox.Text
                 };
 
                 var nickname = JsonConvert.SerializeObject(client, Formatting.Indented);
-                using (var writer = new StreamWriter(client_path))
+                if (!Directory.Exists(client_path))
+                {
+                    Directory.CreateDirectory(client_path);
+                }
+
+                using (var writer = new StreamWriter(File.Create(client_path + "\\client.json")))
                 {
                     writer.Write(nickname);
                 }
