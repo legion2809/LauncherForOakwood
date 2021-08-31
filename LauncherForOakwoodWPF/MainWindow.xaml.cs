@@ -27,10 +27,26 @@ namespace LauncherForOakwoodWPF
 
                 MafiaPathBox.Text = mafia_path;
                 OakPathBox.Text = oak_path;
+
+                string client_path = OakPathBox.Text + "\\config\\client.json";
+                string launcher_path = OakPathBox.Text + "\\config\\launcher.json";
+
+                dynamic client = JsonConvert.DeserializeObject(File.ReadAllText(client_path));
+                dynamic launcher = JsonConvert.DeserializeObject(File.ReadAllText(launcher_path));
+
+                // launcher.json settings
+                MafiaPathBox.Text = launcher["gamepath"];
+                WidthBox.Text = launcher["width"];
+                HeightBox.Text = launcher["height"];
+                IsFullScreenCheck.IsChecked = launcher["fullscreen"] == true ? true : false;
+                AntiAliasingBox.Text = launcher["antialiasing"];
+
+                // client.json settings
+                NickNameBox.Text = client["temp_nickname"];
             }
             catch
             {
-                MessageBox.Show("Couldn't read recent saved Mafia/Oakwood directory!\nMaybe, files doesn't exist.",
+                MessageBox.Show("Couldn't read recent saved Mafia/Oakwood directory or JaSON-files!\nMaybe, they're doesn't exist.",
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
@@ -106,7 +122,7 @@ namespace LauncherForOakwoodWPF
         }
         #endregion
 
-        #region Reading JaSON files and putting info from them into specified textboxes
+        /*#region Reading JaSON files and putting info from them into specified textboxes
         private void ReadJaSONButton_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -132,7 +148,7 @@ namespace LauncherForOakwoodWPF
                 MessageBox.Show("Couldn't read files!\nMaybe, the field with Oakwood directory is empty or 'config' folder doesn't exist.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-        #endregion
+        #endregion*/
 
         #region Choosing Mafia and Oakwood directories
         private void ChooseMafiaPath_Click(object sender, RoutedEventArgs e)
