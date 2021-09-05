@@ -3,11 +3,11 @@
 That program is some kind of launcher for Oakwood ver. RC2 (Mafia: TCOLH multi-player modification)
 
 What can this program:
-1) Write and read launcher.json and client.json files from "config" folder.
+1) Write and read `launcher.json` and `client.json` files from `"config"` folder.
 2) Configure parameters from above listed files and rewrite files with specified changes.
 3) Run the multiplayer after confirmed settings.
 4) Save the recently saved Mafia and Oakwood directories and read them after next launcher run.
-5) Create the "config" folder (if it's not exists) with configured JSON-files.
+5) Create the `"config"` folder (if it's not exists) with configured `JSON`-files.
 
 It's necessary to specify the Mafia and Oakwood paths for the changes to be made correctly and avoid of unexpected errors and issues.
 Link to download: https://github.com/legion2809/LauncherForOakwood/releases
