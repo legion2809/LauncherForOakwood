@@ -10,6 +10,7 @@ What can this program:
 5) Create the "config" folder (if it's not exists) with configured JSON-files.
 
 It's necessary to specify the Mafia and Oakwood paths for the changes to be made correctly and avoid of unexpected errors and issues.
+Link to download: https://github.com/legion2809/LauncherForOakwood/releases
 
 Special thanks to: 
 - Smelson (Vanya Shatilov) - for providing an idea to create this thing and helping me.
