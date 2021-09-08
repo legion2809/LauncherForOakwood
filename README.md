@@ -1,6 +1,6 @@
 # Launcher for Mafia: Oakwood (Mafia: The City of Lost Heaven multi-player modification) 
 
-That program is some kind of launcher for Oakwood ver. RC2 (Mafia: TCOLH multi-player modification)
+This program is some kind of launcher for Oakwood ver. RC2 (Mafia: TCOLH multi-player modification)
 
 What can this program:
 1) Write and read `launcher.json` and `client.json` files from `"config"` folder.
