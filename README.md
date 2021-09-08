@@ -10,6 +10,7 @@ What can this program:
 5) Create the `"config"` folder (if it's not exists) with configured `JSON`-files.
 
 It's necessary to specify the Mafia and Oakwood paths for the changes to be made correctly and avoid of unexpected errors and issues.
+
 Link to download: https://github.com/legion2809/LauncherForOakwood/releases
 
 # Change Log
@@ -34,4 +35,5 @@ Special thanks to:
 - And, finally, **MafiaHub dev team** - for the multiplayer.
 
 If you found any bugs, don't be hesitate to tell about this. ;)
+
 You can find my contacts in my personal webpage: https://legion2809.github.io
