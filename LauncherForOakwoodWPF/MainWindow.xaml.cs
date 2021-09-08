@@ -22,11 +22,13 @@ namespace LauncherForOakwoodWPF
         {
             try
             {
-                string mafia_path = File.ReadAllText(Directory.GetCurrentDirectory() + "\\MafiaPath.txt");
-                string oak_path = File.ReadAllText(Directory.GetCurrentDirectory() + "\\OakPath.txt");
+                string path = Directory.GetCurrentDirectory() + "\\Pathes.txt";
 
-                MafiaPathBox.Text = mafia_path;
-                OakPathBox.Text = oak_path;
+                using (var reader = new StreamReader(path))
+                {
+                    MafiaPathBox.Text = reader.ReadLine();
+                    OakPathBox.Text = reader.ReadLine();
+                }
 
                 string client_path = OakPathBox.Text + "\\config\\client.json";
                 string launcher_path = OakPathBox.Text + "\\config\\launcher.json";
@@ -104,8 +106,11 @@ namespace LauncherForOakwoodWPF
                     writer.Write(nickname);
                 }
 
-                File.WriteAllText(Directory.GetCurrentDirectory() + "\\MafiaPath.txt", MafiaPathBox.Text);
-                File.WriteAllText(Directory.GetCurrentDirectory() + "\\OakPath.txt", OakPathBox.Text);
+                using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\Pathes.txt")))
+                {
+                    writer.WriteLine(MafiaPathBox.Text);
+                    writer.WriteLine(OakPathBox.Text);
+                }
 
                 Process.Start(OakPathBox.Text + "\\Oakwood.exe");
                 Application.Current.Shutdown();
