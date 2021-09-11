@@ -4,6 +4,7 @@ using System.Windows;
 using System.Drawing;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using Microsoft.WindowsAPICodePack.Dialogs;
 using Discord;
 
 namespace LauncherForOakwoodWPF
@@ -185,23 +186,23 @@ namespace LauncherForOakwoodWPF
         #region Choosing Mafia and Oakwood directories
         private void ChooseMafiaPath_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new System.Windows.Forms.FolderBrowserDialog();
-            System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
 
-            if (result == System.Windows.Forms.DialogResult.OK)
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
             {
-                MafiaPathBox.Text = dialog.SelectedPath;
+                MafiaPathBox.Text = dialog.FileName;
             }
         }
 
         private void ChooseOakPath_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new System.Windows.Forms.FolderBrowserDialog();
-            System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
 
-            if (result == System.Windows.Forms.DialogResult.OK)
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
             {
-                OakPathBox.Text = dialog.SelectedPath;
+                OakPathBox.Text = dialog.FileName;
             }
         }
         #endregion
