@@ -4,6 +4,7 @@ using System.Windows;
 using System.Drawing;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using Discord;
 
 namespace LauncherForOakwoodWPF
 {
@@ -12,6 +13,9 @@ namespace LauncherForOakwoodWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        DiscordRpc.EventHandlers handlers;
+        DiscordRpc.RichPresence presence;
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -51,8 +55,34 @@ namespace LauncherForOakwoodWPF
                 MessageBox.Show("Couldn't read recent saved Mafia/Oakwood directory or JaSON-files!\nMaybe, they're doesn't exist.",
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+
+            #region InjectDiscord
+            try
+            {
+                handlers = default(DiscordRpc.EventHandlers);
+                DiscordRpc.Initialize("886277340982820894", ref handlers, true, string.Empty);
+
+                var time = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+                presence.largeImageKey = "logo";
+                presence.largeImageText = "Oakwood Launcher";
+                presence.details = "Setting up Oakwood";
+                presence.startTimestamp = time;
+
+                DiscordRpc.UpdatePresence(ref presence);
+            }
+
+            catch
+            {
+                MessageBox.Show("Couldn't connect to Discord!",
+                    "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            #endregion
         }
         #endregion
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            DiscordRpc.Shutdown();
+        }
 
         #region Creating and writing JaSON files 
         private void ConfirmSettings()
@@ -134,17 +164,14 @@ namespace LauncherForOakwoodWPF
             {
                 string client_path = OakPathBox.Text + "\\config\\client.json";
                 string launcher_path = OakPathBox.Text + "\\config\\launcher.json";
-
                 dynamic client = JsonConvert.DeserializeObject(File.ReadAllText(client_path));
                 dynamic launcher = JsonConvert.DeserializeObject(File.ReadAllText(launcher_path));
-
                 // launcher.json settings
                 MafiaPathBox.Text = launcher["gamepath"];
                 WidthBox.Text = launcher["width"];
                 HeightBox.Text = launcher["height"];
                 IsFullScreenCheck.IsChecked = launcher["fullscreen"] == true ? true : false;
                 AntiAliasingBox.Text = launcher["antialiasing"];
-
                 // client.json settings
                 NickNameBox.Text = client["temp_nickname"];
             }

@@ -51,3 +51,20 @@ E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CopyComplete
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.exe
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.pdb
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\MainWindow.g.cs
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\App.g.cs
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF_MarkupCompile.cache
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF_MarkupCompile.lref
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.exe
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.pdb
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.exe.config
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.exe
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.pdb
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.dll
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.xml
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\MainWindow.baml
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.g.resources
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.Properties.Resources.resources
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.GenerateResource.cache
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.AssemblyReference.cache

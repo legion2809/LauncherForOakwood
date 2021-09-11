@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:LauncherForOakwoodWPF"
         mc:Ignorable="d"
         Title="Launcher for Mafia: Oakwood" Height="426.031" Width="887.17" Icon="Untitled-1_1.ico" ResizeMode="NoResize" FontSize="16"
-        Loaded="Window_Loaded">
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
     <Grid Margin="0,0,-6,-5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="70*"/>
