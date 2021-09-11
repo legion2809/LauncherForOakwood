@@ -26,7 +26,7 @@ v 1.0.3:
 - (Hotfix) Now, the launcher will try to read recently chosen Mafia and Oakwood directories from files (MafiaPath.txt and OakPath.txt) and JaSON-files at the same time when launcher is running.
 - (Hotfix) Mafia and Oakwood will be stored in single file (Pathes.txt)
 
-v.1.0.4
+v.1.0.4:
 - Added Discord Rich Presence by Smelson (Vanya Shatilov)
 - (Hotfix) FolderBrowserDialog has been changed to CommonOpenFileDialog
 
