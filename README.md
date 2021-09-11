@@ -28,6 +28,7 @@ v 1.0.3:
 
 v.1.0.4
 - Added Discord Rich Presence by Smelson (Vanya Shatilov)
+- (Hotfix) FolderBrowserDialog has been changed to CommonOpenFileDialog
 
 # Credits and Additional Info
 
