@@ -59,13 +59,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.WindowsAPICodePack">
-      <HintPath>bin\x86\Release\libs\Microsoft.WindowsAPICodePack.dll</HintPath>
+      <HintPath>..\..\..\Games\Mafia\Mafia\OakwoodLauncher\libs\Microsoft.WindowsAPICodePack.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.Shell">
-      <HintPath>bin\x86\Release\libs\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+      <HintPath>..\..\..\Games\Mafia\Mafia\OakwoodLauncher\libs\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>bin\x86\Release\libs\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\Games\Mafia\Mafia\OakwoodLauncher\libs\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -98,7 +98,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ClientJSON.cs" />
-    <Compile Include="Discord\DiscordRpc.cs" />
+    <Compile Include="Discord\DiscordImport.cs" />
     <Compile Include="LauncherJSON.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -123,6 +123,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Aurora Bold Condensed BT.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
