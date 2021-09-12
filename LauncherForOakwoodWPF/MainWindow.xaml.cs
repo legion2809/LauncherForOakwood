@@ -4,8 +4,8 @@ using System.Windows;
 using System.Drawing;
 using Newtonsoft.Json;
 using System.Diagnostics;
-using Microsoft.WindowsAPICodePack.Dialogs;
 using Discord;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace LauncherForOakwoodWPF
 {

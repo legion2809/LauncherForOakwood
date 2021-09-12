@@ -37,7 +37,6 @@ E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.exe
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\LauncherForOakwoodWPF.pdb
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.dll
-E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Newtonsoft.Json.xml
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.AssemblyReference.cache
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\MainWindow.g.cs
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\App.g.cs
@@ -68,3 +67,7 @@ C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherFo
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.GenerateResource.cache
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.AssemblyReference.cache
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Microsoft.WindowsAPICodePack.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Microsoft.WindowsAPICodePack.xml
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml

@@ -15,3 +15,24 @@ C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherFo
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.pdb
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.dll
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\LauncherForOakwoodWPF.exe.config
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\LauncherForOakwoodWPF.exe
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\LauncherForOakwoodWPF.pdb
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Newtonsoft.Json.dll
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.xml
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\bin\x86\Release\Microsoft.WindowsAPICodePack.Shell.xml
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.csproj.AssemblyReference.cache
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\MainWindow.g.cs
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\App.g.cs
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF_MarkupCompile.cache
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF_MarkupCompile.lref
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\MainWindow.baml
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.g.resources
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.Properties.Resources.resources
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.csproj.GenerateResource.cache
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.csproj.CopyComplete
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.exe
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Release\LauncherForOakwoodWPF.pdb
