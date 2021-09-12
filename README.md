@@ -30,6 +30,9 @@ v.1.0.4:
 - Added Discord Rich Presence by Smelson (Vanya Shatilov)
 - (Hotfix) FolderBrowserDialog has been changed to CommonOpenFileDialog
 
+v 1.0.5
+- Aurora BdCn BT font injected into the executable file
+
 # Credits and Additional Info
 
 Special thanks to: 
