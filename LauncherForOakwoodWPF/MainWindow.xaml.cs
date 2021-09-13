@@ -71,7 +71,6 @@ namespace LauncherForOakwoodWPF
 
                 DiscordRpc.UpdatePresence(ref presence);
             }
-
             catch
             {
                 MessageBox.Show("Couldn't connect to Discord!",
@@ -104,7 +103,14 @@ namespace LauncherForOakwoodWPF
                 if (Convert.ToInt32(WidthBox.Text) > System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width ||
                     Convert.ToInt32(HeightBox.Text) > System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height)
                 {
-                    MessageBox.Show($"{new Exception().Message}\nThe typed width or height more than your screen width/height!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"{new Exception().Message}\nThe typed width or height more than your screen width/height!", "Error", 
+                        MessageBoxButton.OK, MessageBoxImage.Error);
+                    throw new Exception();
+                }
+
+                if (Convert.ToInt32(WidthBox.Text) < 640 || Convert.ToInt32(HeightBox.Text) < 480)
+                {
+                    MessageBox.Show($"{new Exception().Message}\nToo small resolution!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     throw new Exception();
                 }
 
@@ -148,7 +154,7 @@ namespace LauncherForOakwoodWPF
             }
             catch
             {
-                MessageBox.Show("Something went wrong!\nMaybe, you missed something :)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Something went wrong!\nMaybe, you missed or typed wrong something :)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
