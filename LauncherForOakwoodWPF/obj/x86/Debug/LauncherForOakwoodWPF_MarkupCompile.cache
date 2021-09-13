@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\
+E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\
 LauncherForOakwoodWPF
 none
 false
-TRACE
+DEBUG;TRACE
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\App.xaml
 11151548125
 
