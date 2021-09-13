@@ -32,6 +32,7 @@ v.1.0.4:
 
 v 1.0.5
 - Aurora BdCn BT font injected into the executable file
+- Rounded borders and additional resolution check 
 
 # Credits and Additional Info
 
