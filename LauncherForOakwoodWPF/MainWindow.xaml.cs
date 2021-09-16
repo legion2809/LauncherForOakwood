@@ -22,16 +22,15 @@ namespace LauncherForOakwoodWPF
             InitializeComponent();
         }
 
-        #region Reading recent chosen Mafia and Oakwood directories, if the files with them does exist
+        #region Reading JaSON-files and recent chosen Oakwood directory, if the file with it does exist
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             try
             {
-                string path = Directory.GetCurrentDirectory() + "\\Pathes.txt";
+                string path = Directory.GetCurrentDirectory() + "\\OakPath.txt";
 
                 using (var reader = new StreamReader(path))
                 {
-                    MafiaPathBox.Text = reader.ReadLine();
                     OakPathBox.Text = reader.ReadLine();
                 }
 
@@ -57,7 +56,7 @@ namespace LauncherForOakwoodWPF
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
 
-            #region InjectDiscord
+            #region Injecting Discord Rich Presence
             try
             {
                 handlers = default(DiscordRpc.EventHandlers);
@@ -126,31 +125,24 @@ namespace LauncherForOakwoodWPF
                 }
 
                 // Writing client.json
-                string client_path = OakPathBox.Text + "\\config";
                 ClientJSON client = new ClientJSON()
                 {
                     temp_nickname = NickNameBox.Text
                 };
 
                 var nickname = JsonConvert.SerializeObject(client, Formatting.Indented);
-                if (!Directory.Exists(client_path))
-                {
-                    Directory.CreateDirectory(client_path);
-                }
-
-                using (var writer = new StreamWriter(File.Create(client_path + "\\client.json")))
+                using (var writer = new StreamWriter(File.Create(path + "\\client.json")))
                 {
                     writer.Write(nickname);
                 }
 
-                using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\Pathes.txt")))
+                // Writing recent chosen Oakwood directory
+                using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\OakPath.txt")))
                 {
-                    writer.WriteLine(MafiaPathBox.Text);
                     writer.WriteLine(OakPathBox.Text);
                 }
 
                 Process.Start(OakPathBox.Text + "\\Oakwood.exe");
-                Application.Current.Shutdown();
             }
             catch
             {
