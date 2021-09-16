@@ -52,7 +52,7 @@ namespace LauncherForOakwoodWPF
             }
             catch
             {
-                MessageBox.Show("Couldn't read recent saved Mafia/Oakwood directory or JaSON-files!\nMaybe, they're doesn't exist.",
+                MessageBox.Show("Couldn't read JaSON-files or recent saved Oakwood directory!\nMaybe, they're doesn't exist.",
                     "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
 
