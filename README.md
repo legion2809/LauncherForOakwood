@@ -16,15 +16,15 @@ Link to download: https://github.com/legion2809/LauncherForOakwood/releases
 # Change Log
 
 v 1.0.1:
-- Now, the launcher can read recently chosen Mafia and Oakwood directories from file (MafiaPath.txt and OakPath.txt) that will be created after choosing path from FolderBrowser dialog window.
+- Now, the launcher can read recently chosen Mafia and Oakwood directories from file (`MafiaPath.txt` and `OakPath.txt`) that will be created after choosing path from FolderBrowser dialog window.
 
 v 1.0.2:
-- Now, the launcher can read both of JaSON-files at the same time (client.json and launcher.json), there's no need in use openFileDialog. :) 
+- Now, the launcher can read both of JaSON-files at the same time (`client.json` and `launcher.json`), there's no need in use openFileDialog. :) 
 
 v 1.0.3:
-- Now, the launcher can create the "config" folder (if it isn't exists) with configured JaSON-files.
-- (Hotfix) Now, the launcher will try to read recently chosen Mafia and Oakwood directories from files (MafiaPath.txt and OakPath.txt) and JaSON-files at the same time when launcher is running.
-- (Hotfix) Mafia and Oakwood will be stored in single file (Pathes.txt)
+- Now, the launcher can create the `"config"` folder (if it isn't exists) with configured JaSON-files.
+- (Hotfix) Now, the launcher will try to read recently chosen Mafia and Oakwood directories from files (`MafiaPath.txt` and `OakPath.txt`) and JaSON-files at the same time when launcher is running.
+- (Hotfix) Mafia and Oakwood will be stored in single file (`Pathes.txt`)
 
 v.1.0.4:
 - Added Discord Rich Presence by Smelson (Vanya Shatilov)
@@ -32,6 +32,8 @@ v.1.0.4:
 
 v 1.0.5
 - Aurora BdCn BT font injected into the executable file
+- Rounded borders and additional resolution check
+- (Hotfix) There was no need in to store the Mafia directory (cuz it will have been stored in `launcher.json`), now only the Oakwood directory will be stored in `OakPath.txt` file 
 
 # Credits and Additional Info
 
