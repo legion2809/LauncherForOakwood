@@ -140,9 +140,12 @@ namespace LauncherForOakwoodWPF
                 }
 
                 // Writing recent chosen Oakwood directory
-                using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\OakPath.txt")))
+                if (!File.Exists(Directory.GetCurrentDirectory() + "\\OakPath.txt"))
                 {
-                    writer.WriteLine(OakPathBox.Text);
+                    using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\OakPath.txt")))
+                    {
+                        writer.WriteLine(OakPathBox.Text);
+                    }
                 }
 
                 Process.Start(OakPathBox.Text + "\\Oakwood.exe");
