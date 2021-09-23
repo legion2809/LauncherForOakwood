@@ -6,8 +6,8 @@ What can this program:
 1) Write and read `launcher.json` and `client.json` files from `"config"` folder.
 2) Configure parameters from above listed files and rewrite files with specified changes.
 3) Run the multiplayer after confirmed settings.
-4) Save the recently saved Mafia and Oakwood directories and read them after next launcher run.
-5) Create the `"config"` folder (if it's not exists) with configured `JSON`-files.
+4) Save the recently saved Oakwood directory and read it after next launcher run.
+5) Create the `"config"` folder (if it doesn't exist) with configured `JSON`-files.
 
 It's necessary to specify the Mafia and Oakwood paths for the changes to be made correctly and avoid of unexpected errors and issues.
 
@@ -30,7 +30,7 @@ v.1.0.4:
 - Added Discord Rich Presence by Smelson (Vanya Shatilov)
 - (Hotfix) FolderBrowserDialog has been changed to CommonOpenFileDialog
 
-v 1.0.5
+v 1.0.5:
 - Aurora BdCn BT font injected into the executable file
 - Rounded borders and additional resolution check
 - (Hotfix) There was no need in to store the Mafia directory (cuz it will have been stored in `launcher.json`), now only the Oakwood directory will be stored in `OakPath.txt` file 
