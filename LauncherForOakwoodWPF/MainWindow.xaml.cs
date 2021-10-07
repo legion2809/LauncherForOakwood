@@ -22,22 +22,20 @@ namespace LauncherForOakwoodWPF
             InitializeComponent();
         }
 
-        // Testing webhook
-
         #region Reading JaSON-files and recent chosen Oakwood directory, if the file with it does exist
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             try
             {
-                string path = Directory.GetCurrentDirectory() + "\\OakPath.txt";
+                string path = Directory.GetCurrentDirectory() + @"\OakPath.txt";
 
                 using (var reader = new StreamReader(path))
                 {
                     OakPathBox.Text = reader.ReadLine();
                 }
 
-                string client_path = OakPathBox.Text + "\\config\\client.json";
-                string launcher_path = OakPathBox.Text + "\\config\\launcher.json";
+                string client_path = OakPathBox.Text + @"\config\client.json";
+                string launcher_path = OakPathBox.Text + @"\config\launcher.json";
 
                 dynamic client = JsonConvert.DeserializeObject(File.ReadAllText(client_path));
                 dynamic launcher = JsonConvert.DeserializeObject(File.ReadAllText(launcher_path));
@@ -92,7 +90,7 @@ namespace LauncherForOakwoodWPF
             try
             {
                 // Writing launcher.json
-                string path = OakPathBox.Text + "\\config";
+                string path = OakPathBox.Text + @"\config";
                 LauncherJSON launcher = new LauncherJSON()
                 {
                     gamepath = MafiaPathBox.Text,
@@ -122,8 +120,9 @@ namespace LauncherForOakwoodWPF
                     Directory.CreateDirectory(path);
                 }
 
-                using (var writer = new StreamWriter(File.Create(path + "\\launcher.json")))
+                using (var writer = new StreamWriter(File.Create(path + @"\launcher.json")))
                 {
+                    launcher_settings = launcher_settings.Replace("\\\\", "\\");
                     writer.Write(launcher_settings);
                 }
 
@@ -134,21 +133,23 @@ namespace LauncherForOakwoodWPF
                 };
 
                 var nickname = JsonConvert.SerializeObject(client, Formatting.Indented);
-                using (var writer = new StreamWriter(File.Create(path + "\\client.json")))
+                using (var writer = new StreamWriter(File.Create(path + @"\client.json")))
                 {
                     writer.Write(nickname);
                 }
 
                 // Writing recent chosen Oakwood directory
-                if (!File.Exists(Directory.GetCurrentDirectory() + "\\OakPath.txt"))
+                if (!File.Exists(Directory.GetCurrentDirectory() + @"\OakPath.txt"))
                 {
-                    using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + "\\OakPath.txt")))
+                    using (var writer = new StreamWriter(File.Create(Directory.GetCurrentDirectory() + @"\OakPath.txt")))
                     {
                         writer.WriteLine(OakPathBox.Text);
                     }
                 }
 
-                Process.Start(OakPathBox.Text + "\\Oakwood.exe");
+                Process.Start(OakPathBox.Text + @"\Oakwood.exe");
+                DiscordRpc.Shutdown();
+                Application.Current.Shutdown();
             }
             catch
             {
