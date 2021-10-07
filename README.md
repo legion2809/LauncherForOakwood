@@ -37,6 +37,7 @@ v 1.0.5:
 
 v 1.0.6
 - Fixed gamepath formatting due to new Oakwood RC2 client update
+- Fixed an issue with Mafia path reading from JaSON-file
 
 # Credits and Additional Info
 
