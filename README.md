@@ -33,7 +33,10 @@ v.1.0.4:
 v 1.0.5:
 - Aurora BdCn BT font injected into the executable file
 - Rounded borders and additional resolution check
-- (Hotfix) There was no need in to store the Mafia directory (cuz it will have been stored in `launcher.json`), now only the Oakwood directory will be stored in `OakPath.txt` file 
+- (Hotfix) There was no need in to store the Mafia directory (cuz it will have been stored in `launcher.json`), now only the Oakwood directory will be stored in `OakPath.txt` file
+
+v 1.0.6
+- Fixed gamepath formatting due to new Oakwood RC2 client update
 
 # Credits and Additional Info
 
