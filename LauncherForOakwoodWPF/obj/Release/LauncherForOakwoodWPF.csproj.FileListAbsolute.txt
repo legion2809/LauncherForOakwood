@@ -47,7 +47,6 @@ E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.Properties.Resources.resources
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.GenerateResource.cache
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
-E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.csproj.CopyComplete
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.exe
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\LauncherForOakwoodWPF.pdb
 C:\Program Files (x86)\!Mafia Projects, since 2021\LauncherForOakwood\LauncherForOakwoodWPF\obj\Release\MainWindow.g.cs

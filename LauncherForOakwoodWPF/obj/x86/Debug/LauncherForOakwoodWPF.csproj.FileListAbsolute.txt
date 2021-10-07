@@ -16,6 +16,5 @@ E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.Properties.Resources.resources
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.csproj.GenerateResource.cache
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.csproj.CoreCompileInputs.cache
-E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.csproj.CopyComplete
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.exe
 E:\Downloads\Documents\Git-projects\LauncherForOakwood\LauncherForOakwoodWPF\obj\x86\Debug\LauncherForOakwoodWPF.pdb
